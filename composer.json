@@ -7,7 +7,7 @@
 	"require": {
 		"bolt/bolt": "^3.0"
 	},
-	"license": "Proprietary software",
+	"license": "GNU GPLv2",
 	"authors": [
 		{
 			"name": "Optize sp. z o.o.",
@@ -23,6 +23,7 @@
 		}
 	},
 	"extra": {
-		"bolt-class": "Bolt\\Extension\\Optize\\Rasalas\\RasalasExtension"
+		"bolt-class": "Bolt\\Extension\\Optize\\Rasalas\\RasalasExtension",
+		"bolt-icon": "icon.png"
 	}
 }
