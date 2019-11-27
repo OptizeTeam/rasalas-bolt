@@ -1,0 +1,28 @@
+{
+	"name": "optize/rasalas",
+	"description": "Oddzwaniaj do klientów odwiedzających Twoją stronę w ciągu kilku sekund. Zwiększ liczbę telefonów nawet o 200%. Otrzymuj zapytania ofertowe, gdy jesteś offline. Z Tap4Call to możliwe!",
+	"type": "bolt-extension",
+	"keywords": [
+	],
+	"require": {
+		"bolt/bolt": "^3.0"
+	},
+	"license": "Proprietary software",
+	"authors": [
+		{
+			"name": "Optize sp. z o.o.",
+			"email": "hello@optize.pl"
+		}
+	],
+	"version": "1.0.0",
+	"minimum-stability": "stable",
+	"prefer-stable": true,
+	"autoload": {
+		"psr-4": {
+			"Bolt\\Extension\\Optize\\Rasalas\\": "src"
+		}
+	},
+	"extra": {
+		"bolt-class": "Bolt\\Extension\\Optize\\Rasalas\\RasalasExtension"
+	}
+}
