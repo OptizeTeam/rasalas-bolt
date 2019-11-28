@@ -14,8 +14,7 @@
 			"email": "hello@optize.pl"
 		}
 	],
-	"version": "1.0.0",
-	"minimum-stability": "stable",
+	"minimum-stability": "dev",
 	"prefer-stable": true,
 	"autoload": {
 		"psr-4": {
